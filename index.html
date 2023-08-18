@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Counter</title>
+    <script>
+      // "+" operator prefers string operations
+      function increment() {
+        document.getElementById("counter").innerHTML =
+          Number(document.getElementById("counter").innerHTML) + 1;
+          const A = new Date()
+       
+        document.getElementById("d").innerHTML = A.toISOString().split('T')[0];
+      }
+      // "-" operator prefers mathematical operations
+      function decrement() {
+        if(document.getElementById("counter").innerHTML!=0){
+        document.getElementById("counter").innerHTML =
+          document.getElementById("counter").innerHTML - 1;
+        }
+      }
+      function applydate()
+      {
+        
+      }
+      </script>
+    <link rel="stylesheet" href="counter.css">
+  </head>
+  <body>
+    
+    
+ <div class="date" id="d" ><button onclick="increment()"></button>
+
+ </div>
+ 
+    <div class="container">
+        <div class="increment"><button onclick="increment()"><img src="https://static.vecteezy.com/system/resources/previews/000/583/100/original/vector-button-plus-icon.jpg" alt="" width="50px"></button></div>
+    <div class="count"><div id="counter">1</div></div>
+    <div class="decrement"><button onclick="decrement()"><img src="https://cdn-icons-png.flaticon.com/512/56/56889.png" alt="" width="50px"></button></div>
+</div>
+<footer class="foot"> Made with <span style="color: red;"> &#10084;</span> by Mansi Sharma</footer>
+    
+  </body>
+</html>
+ 

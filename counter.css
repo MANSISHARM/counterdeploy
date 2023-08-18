@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-image: url(https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_23-2149150610.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   }
+   .date{
+    width: 100%;
+    height: 20vh;
+    padding-top: 70px;
+    text-align: center;
+   font-size: x-large;
+    font-weight: bold;
+    color: white;
+   }
+   .container{
+    width: 70vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(53, 50, 50);
+    margin-left: 120px;
+    padding-bottom: 40px;
+   
+
+   }
+   .increment{
+    width: 35vw;
+    height: 40vh;
+    padding: 20px 0 0 100px;
+    text-align: center;
+    padding-top: 90px;
+   }
+   .count{
+    width: 30vw;
+    height: 40vh;
+    text-align: center;
+    color: white;
+    padding: 20px 0 0 0;
+    padding-top: 100px;
+    font-size: x-large;
+    font-weight: bold;
+   }
+   .decrement{
+    width: 35vw;
+    height: 40vh;
+    padding: 20px 100px 0 0;
+    text-align: center;
+    padding-top: 90px;
+   }
+   .foot{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+   }
+   @media only screen and (max-width: 600px) {
+    body {
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .container{
+      height: 20vh;
+      
+    }
+  }
